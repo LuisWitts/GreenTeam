@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(34, 48, 34);
+    background-color: rgb(38, 87, 60);
     color: rgb(212, 214, 213);
     font: normal 20pt arial;
     margin-top: 30px;
@@ -23,26 +23,35 @@ body{
     bottom: 0;
     width: 100%;
     background-color: rgb(42, 63, 50);
-    color: rgb(122, 114, 102);
+    color:whitesmoke;
     text-align: center;
     margin-top: 10%;
+    opacity: 20% ;
     
 }
 
 #titulos{
     padding-top: 30px;
-    color: rgb(122, 114, 102);
+    color:whitesmoke;
+    
 }
 
 .coluna{
-    background-color: white;
+    background-color: rgb(214, 236, 214);
     border-style: solid;
-    border-color: rgb lightgreen;
+    opacity: 20% ;
+    margin: 0px 5px 0px 5px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;  
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 #tarefas{
     height: 600px;
     
+}
+#pendentes,#fazendo,#feitas{
+    box-shadow: 10px 5px 5px black;
+
 }
