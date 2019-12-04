@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(34, 48, 34);
+    color: rgb(212, 214, 213);
+    font: normal 20pt arial;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 35px;
+    text-shadow: 2px 2px 5px rgb(10, 10, 10);
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    text-align: center;
+}
+
+#novatarefa{
+    justify-content: center;
+    
+}
+
+.footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(42, 63, 50);
+    color: rgb(122, 114, 102);
+    text-align: center;
+    margin-top: 10%;
+    
+}
+
+#titulos{
+    padding-top: 30px;
+    color: rgb(122, 114, 102);
+}
+
+.coluna{
+    background-color: white;
+    border-style: solid;
+    border-color: rgb lightgreen;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;  
+}
+
+#tarefas{
+    height: 600px;
+    
+}

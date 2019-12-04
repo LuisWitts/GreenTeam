@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="desafio.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="desafio.css">
+    <title>.: Desafio :.</title>
+</head>
+
+<body>
+                <div class="container">
+                        <div class="row" id="titulo">
+                                <div class="col-md-12"><h1>.: MiniTrello :.</h1></div>
+                        </div>
+                        <div class="row" id="novatarefa">
+                            <id class="col-md4-12">
+                                <button class="btn btn-outline-light" id="button" onclick="recuperartudo();">Recuperar Itens</button>
+                
+                            </id>
+                
+                        </div>
+                        <div class="row" id="titulos">
+                            <div class="col-md-4">
+                                <h3>Pendentes</h3>
+                            
+                                
+                                
+                            </div>
+                            <div class="col-md-4">
+                                <h3>Em Processo</h3>
+                
+                            </div>
+                           <div class="col-md-4">
+                               <h3>Finalizadas</h3>
+                 
+                            </div>
+                        </div>
+                
+                        <div class="row" id="tarefas">
+                            <div class="col-md-4 coluna" ondrop="recebeItem(event);" ondragover="habilitaArrastar(event);"
+                                id="pendentes">
+                                
+                                
+                            </div>
+                            <div class="col-md-4 coluna" ondrop="recebeItem(event);" ondragover="habilitaArrastar(event);" id="fazendo">
+                
+                            </div>
+                            <div class="col-md-4 coluna" ondrop="recebeItem(event);" ondragover="habilitaArrastar(event);" id="feitas">
+                
+                            </div>
+                        </div>
+                
+                    </div>
+
+
+                    <div class="row">
+                         <div class="col-md-12 footer">GreenSquad&reg;</div>
+                    </div>
+
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                    crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                    crossorigin="anonymous"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
