@@ -1,0 +1,51 @@
+body{
+    background-color:;
+}
+
+.footer {
+    
+    position: fixed;
+    left: 0%;
+    bottom: 0;
+    width: 100%;
+    
+    background-color: white;
+    color:black;
+    text-align: center;
+    opacity: 100%
+   
+    
+    
+}
+p{
+    text-align: justify;
+}
+
+.tamanho-img{
+    width: 100px;
+    height: 100px;
+}
+#gif{
+    width: 80px;
+    height: 50px ;
+}
+
+#projeto{
+    text-align: justify;
+    border-style: solid;
+    border color: ;
+}
+
+h3{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+#botao{
+    margin-left: 8px;
+}
+#bot{
+    margin-top: 10px;
+}
+
+

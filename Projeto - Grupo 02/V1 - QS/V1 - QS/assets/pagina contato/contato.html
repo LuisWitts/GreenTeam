@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <title>ClickIn</title>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-white bg-white">
+
+      <strong><h1> ClickIn </h1> </strong>
+    <a class="navbar-brand" href="#">
+      
+      <img src="cadeira-de-roda.gif" id="gif" alt="cadeira de rodas em movimento">
+    </a>
+    <a class="nav-link" href="../../index.html">Quem Somos</a>
+    <a class="nav-link" href="#">Embaixadores</a>
+    <a class="nav-link" href="#">Contato</a>
+    <a class="nav-link" href="#">Parceria</a>
+  </nav>
+</div>
+  </div>
+
+  <div class="row">
+    
+    <div class="col-md-12">
+      <h3> Fale Conosco </h3>
+    </div>
+    
+  </div>
+
+<div class="container-fluid">
+<div class="row">
+  <div class="col-md-3"></div>
+  <div class="col-md-6">
+    
+  <div id="iframe">
+      <form class="needs-validation" novalidate>
+        <div class="row">
+          <div class="col-md-12">
+            <label for="validationTooltip01"> Nome </label>
+            <input type="text" class="form-control" id="nome" placeholder="Digite o seu nome"
+              value="" required>
+            <div class="valid-tooltip">
+              Looks good!
+            </div>
+          </div>
+  
+  
+  
+  
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <label for="validationTooltip01"> Email </label>
+            <input type="text" class="form-control" id="email" placeholder="Digite o seu nome"
+              value="" required>
+            <div class="valid-tooltip">
+              Looks good!
+            </div>
+          </div>
+
+        <!--<div class="row">
+  
+          <div class="col-md-12">
+            <label for="validationTooltipUsername">E-mail</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+              </div>
+              <input type="text" class="form-control" id="email" placeholder="Digite seu e-mail"
+                aria-describedby="validationTooltipUsernamePrepend" required>
+              <div class="invalid-tooltip">
+                Please choose a unique and valid username.
+              </div>
+            </div>
+          </div>
+        -->
+  
+  </div>
+  
+        <div class="row">
+          <div class="col-md-12">
+            <label for="validationTooltip04">Telefone</label>
+            <input type="text" class="form-control" id="telefone" placeholder="Digite o seu telefone"
+              required>
+            <div class="invalid-tooltip">
+              Please provide a valid state.
+            </div>
+          </div>
+          
+        </div>
+        <div class="row">
+        <div class="col-md-12">
+          <label for="exampleFormControlTextarea1">Mensagem</label>
+          <textarea class="form-control" id="mensagem" rows="3"></textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3"></div>
+</div>
+
+  </form>
+</div>
+  <div class="row" id="bot">
+    <div class="col-md-3">
+    </div>
+   
+    <div class="col-md-6" id="botao">
+      <button class="btn btn-outline-dark" type="submit" onclick="valida()">Enviar</button>
+    </div>
+    <div class="col-md-3">
+    </div>
+  </div>
+
+  </form>
+
+<script src="contato.js"></script>
+
+
+  <div class="row" id="footer">
+    <div class="col-md-12-mb-10 mt-5 footer">ClickIn&reg;</div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
