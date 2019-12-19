@@ -27,3 +27,7 @@ body{
     background: rgb(77,184,244);
     background: linear-gradient(90deg, rgb(253, 253, 253) 0%, rgb(201, 229, 241) 35%, rgb(176, 224, 252) 100%);
 }
+
+#footer {
+    text-align: center;
+}
